@@ -1,0 +1,98 @@
+
+version: "2.0"
+nlu:
+- intent: contraindicaciones de la vacuna BCG
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna [bcg](bcg)? 
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna [bcg](bcg)?
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna [bcg](bcg)? 
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna [bcg](bcg)? 
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna [bcg](bcg)?
+
+- intent: contraindicaciones de la vacuna VPH
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna [vph](vph)? 
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna [vph](vph)?
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna [vph](vph)? 
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna [vph](vph)? 
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna [vph](vph)?
+
+- intent: contraindicaciones de la vacuna dTpa
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna [dtpa](dtpa)? 
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna [dtpa](dtpa)?
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna [dtpa](dtpa)? 
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna [dtpa](dtpa)? 
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna [dtpa](dtpa)?
+
+- intent: contraindicaciones de la vacuna Hepatitis A
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna [Hepatitis A](ha)? 
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna [Hepatitis A](ha)?
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna [Hepatitis A](ha)? 
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna [Hepatitis A](ha)? 
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna [Hepatitis A](ha)?
+
+- intent: contraindicaciones de la vacuna Hepatitis B
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna [Hepatitis B](hb)? 
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna [Hepatitis B](hb)? 
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna [Hepatitis B](hb)? 
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna [Hepatitis B](hb)? 
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna [Hepatitis B](hb)? 
+
+- intent: contraindicaciones de la vacuna Hexavalente
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna [Hexavalente](hexa)? 
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna [Hexavalente](hexa)? 
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna [Hexavalente](hexa)? 
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna [Hexavalente](hexa)? 
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna [Hexavalente](hexa)? 
+
+- intent: contraindicaciones de la vacuna Fiebre Amarilla
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna [Fiebre Amarilla](fiebre)? 
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna [Fiebre Amarilla](fiebre)? 
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna [Fiebre Amarilla](fiebre)? 
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna [Fiebre Amarilla](fiebre)? 
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna [Fiebre Amarilla](fiebre)? 
+
+- intent: contraindicaciones de la vacuna Tres Virica
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna [Tres Virica](tri)? 
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna [Tres Virica](tri)? 
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna [Tres Virica](tri)? 
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna [Tres Virica](tri)? 
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna [Tres Virica](tri)? 
+
+- intent: contraindicaciones de la vacuna Varicela
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna [Varicela](varicela)? 
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna [Varicela](varicela)? 
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna [Varicela](varicela)?  
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna [Varicela](varicela)? 
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna [Varicela](varicela)? 
+
+- intent: contraindicaciones de la vacuna Neumococica C
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna [Neumocócica conjugada](neumoC)? 
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna [Neumocócica conjugada](neumoC)? 
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna [Neumocócica conjugada](neumoC)? 
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna [Neumocócica conjugada](neumoC)? 
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna [Neumocócica conjugada](neumoC)? 
+
+- intent: contraindicaciones de la vacuna Neumococica P
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna [neumocócica polisacárida](neumoP)? 
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna [neumocócica polisacárida](neumoP)? 
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna [neumocócica polisacárida](neumoP)? 
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna [neumocócica polisacárida](neumoP)? 
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna [neumocócica polisacárida](neumoP)? 
+
+- intent: contraindicaciones de la vacuna Meningococica C
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna [meningocócica conjugada](meninC)? 
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna [meningocócica conjugada](meninC)? 
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna [meningocócica conjugada](meninC)? 
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna [meningocócica conjugada](meninC)? 
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna [meningocócica conjugada](meninC)? 

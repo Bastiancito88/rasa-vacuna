@@ -1,0 +1,90 @@
+version: "2.0"
+nlu:
+- intent: como actua la vacuna BCG
+  examples: |
+    - ¿Cómo [actúa](actua) la vacuna [bcg](bcg)? 
+    - ¿Cómo [trabaja](actua) la vacuna [bcg](bcg)? 
+    - ¿Cómo [funciona](actua) la vacuna [bcg](bcg)?  
+    - ¿Cuál es [la mecánica](actua) de la vacuna [bcg](bcg)?  
+
+
+- intent: como actua la vacuna VPH
+  examples: |
+    - ¿Cómo [actúa](actua) la vacuna [vph](vph)? 
+    - ¿Cómo [trabaja](actua) la vacuna [vph](vph)? 
+    - ¿Cómo [funciona](actua) la vacuna [vph](vph)?  
+    - ¿Cuál es [la mecánica](actua) de la vacuna [vph](vph)?  
+    - ¿Cómo [actúa](actua) la vacuna [papiloma](vph)? 
+   
+
+- intent: como actua la vacuna dTpa
+  examples: |
+    - ¿Cómo [actúa](actua) la vacuna [dtpa](dtpa)? 
+    - ¿Cómo [trabaja](actua) la vacuna [dtpa](dtpa)? 
+    - ¿Cómo [funciona](actua) la vacuna [dtpa](dtpa)?  
+    - ¿Cuál es [la mecánica](actua) de la vacuna [dtpa](dtpa)?  
+
+- intent: como actua la vacuna Hepatitis A
+  examples: |
+    - ¿Cómo [actúa](actua) la vacuna [Hepatitis A](ha)? 
+    - ¿Cómo [trabaja](actua) la vacuna [Hepatitis A](ha)? 
+    - ¿Cómo [funciona](actua) la vacuna [Hepatitis A](ha)?  
+    - ¿Cuál es [la mecánica](actua) de la vacuna [Hepatitis A](ha)?  
+
+- intent: como actua la vacuna Hepatitis B
+  examples: |
+    - ¿Cómo [actúa](actua) la vacuna [Hepatitis B](hb)? 
+    - ¿Cómo [trabaja](actua) la vacuna [Hepatitis B](hb)? 
+    - ¿Cómo [funciona](actua) la vacuna [Hepatitis B](hb)?  
+    - ¿Cuál es [la mecánica](actua) de la vacuna [Hepatitis B](hb)?  
+
+- intent: como actua la vacuna Hexavalente
+  examples: |
+    - ¿Cómo [actúa](actua) la vacuna [Hexavalente](hexa)? 
+    - ¿Cómo [trabaja](actua) la vacuna [Hexavalente](hexa)? 
+    - ¿Cómo [funciona](actua) la vacuna [Hexavalente](hexa)?  
+    - ¿Cuál es [la mecánica](actua) de la vacuna [Hexavalente](hexa)?  
+
+- intent: como actua la vacuna Fiebre Amarilla
+  examples: |
+    - ¿Cómo [actúa](actua) la vacuna [Fiebre Amarilla](fiebre)? 
+    - ¿Cómo [trabaja](actua) la vacuna [Fiebre Amarilla](fiebre)? 
+    - ¿Cómo [funciona](actua) la vacuna [Fiebre Amarilla](fiebre)?  
+    - ¿Cuál es [la mecánica](actua) de la vacuna [Fiebre Amarilla](fiebre)?  
+
+- intent: como actua la vacuna Tres Virica
+  examples: |
+    - ¿Cómo [actúa](actua) la vacuna [Tres Virica](tri)? 
+    - ¿Cómo [trabaja](actua) la vacuna [Tres Virica](tri)? 
+    - ¿Cómo [funciona](actua) la vacuna [Tres Virica](tri)?  
+    - ¿Cuál es [la mecánica](actua) de la vacuna [Tres Virica](tri)?  
+
+- intent: como actua la vacuna Varicela
+  examples: |
+    - ¿Cómo [actúa](actua) la vacuna [Varicela](varicela)? 
+    - ¿Cómo [trabaja](actua) la vacuna [Varicela](varicela)? 
+    - ¿Cómo [funciona](actua) la vacuna [Varicela](varicela)?  
+    - ¿Cuál es [la mecánica](actua) de la vacuna [Varicela](varicela)?  
+
+
+- intent: como actua la vacuna Neumococica C
+  examples: |
+    - ¿Cómo [actúa](actua) la vacuna [Neumocócica conjugada](neumoC)? 
+    - ¿Cómo [trabaja](actua) la vacuna [Neumocócica conjugada](neumoC)? 
+    - ¿Cómo [funciona](actua) la vacuna [Neumocócica conjugada](neumoC)?  
+    - ¿Cuál es [la mecánica](actua) de la vacuna [Neumocócica conjugada](neumoC)?  
+
+- intent: como actua la vacuna Neumococica P
+  examples: |
+    - ¿Cómo [actúa](actua) la vacuna [neumocócica polisacárida](neumoP)? 
+    - ¿Cómo [trabaja](actua) la vacuna [neumocócica polisacárida](neumoP)? 
+    - ¿Cómo [funciona](actua) la vacuna [neumocócica polisacárida](neumoP)?  
+    - ¿Cuál es [la mecánica](actua) de la vacuna [neumocócica polisacárida](neumoP)?  
+
+- intent: como actua la vacuna Meningococica C
+  examples: |
+    - ¿Cómo [actúa](actua) la vacuna [meningocócica conjugada](meninC)? 
+    - ¿Cómo [trabaja](actua) la vacuna [meningocócica conjugada](meninC)? 
+    - ¿Cómo [funciona](actua) la vacuna [meningocócica conjugada](meninC)?  
+    - ¿Cuál es [la mecánica](actua) de la vacuna [meningocócica conjugada](meninC)?  
+  

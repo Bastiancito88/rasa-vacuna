@@ -1,0 +1,537 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- informacion de una vacuna:
+    use_entities: true
+- informacion BCG:
+    use_entities: true
+- informacion VPH:
+    use_entities: true
+- informacion dTpa:
+    use_entities: true
+- informacion Hepatitis A:
+    use_entities: true
+- informacion Hepatitis B:
+    use_entities: true
+- informacion Hexavalente:
+    use_entities: true
+- informacion Fiebre Amarilla:
+    use_entities: true
+- informacion Neumococica C:
+    use_entities: true
+- informacion Neumococica P:
+    use_entities: true
+- informacion Meningococica C:
+    use_entities: true
+- informacion Tres Virica:
+    use_entities: true
+- informacion Varicela:
+    use_entities: true
+- como actua una vacuna:
+    use_entities: true
+- como actua la vacuna BCG:
+    use_entities: true
+- como actua la vacuna VPH:
+    use_entities: true
+- como actua la vacuna dTpa:
+    use_entities: true
+- como actua la vacuna Hepatitis A:
+    use_entities: true
+- como actua la vacuna Hepatitis B:
+    use_entities: true
+- como actua la vacuna Hexavalente:
+    use_entities: true
+- como actua la vacuna Fiebre Amarilla:
+    use_entities: true
+- como actua la vacuna Neumococica C:
+    use_entities: true
+- como actua la vacuna Neumococica P:
+    use_entities: true
+- como actua la vacuna Meningococica C:
+    use_entities: true
+- como actua la vacuna Tres Virica:
+    use_entities: true
+- como actua la vacuna Varicela:
+    use_entities: true
+- seguridad de una vacuna:
+    use_entities: true
+- seguridad de la vacuna BCG:
+    use_entities: true
+- seguridad de la vacuna VPH:
+    use_entities: true
+- seguridad de la vacuna dTpa:
+    use_entities: true
+- seguridad de la vacuna Hepatitis A:
+    use_entities: true
+- seguridad de la vacuna Hepatitis B:
+    use_entities: true
+- seguridad de la vacuna Hexavalente:
+    use_entities: true
+- seguridad de la vacuna Fiebre Amarilla:
+    use_entities: true
+- seguridad de la vacuna Neumococica C:
+    use_entities: true
+- seguridad de la vacuna Neumococica P:
+    use_entities: true
+- seguridad de la vacuna Meningococica C:
+    use_entities: true
+- seguridad de la vacuna Tres Virica:
+    use_entities: true
+- seguridad de la vacuna Varicela:
+    use_entities: true
+- precio de una vacuna:
+    use_entities: true
+- precio de la vacuna BCG:
+    use_entities: true
+- precio de la vacuna VPH:
+    use_entities: true
+- precio de la vacuna dTpa:
+    use_entities: true
+- precio de la vacuna Hepatitis A:
+    use_entities: true
+- precio de la vacuna Hepatitis B:
+    use_entities: true
+- precio de la vacuna Hexavalente:
+    use_entities: true
+- precio de la vacuna Fiebre Amarilla:
+    use_entities: true
+- precio de la vacuna Neumococica C:
+    use_entities: true
+- precio de la vacuna Neumococica P:
+    use_entities: true
+- precio de la vacuna Meningococica C:
+    use_entities: true
+- precio de la vacuna Tres Virica:
+    use_entities: true
+- precio de la vacuna Varicela:
+    use_entities: true
+- contraindicaciones de una vacuna:
+    use_entities: true
+- contraindicaciones de la vacuna BCG:
+    use_entities: true
+- contraindicaciones de la vacuna VPH:
+    use_entities: true
+- contraindicaciones de la vacuna dTpa:
+    use_entities: true
+- contraindicaciones de la vacuna Hepatitis A:
+    use_entities: true
+- contraindicaciones de la vacuna Hepatitis B:
+    use_entities: true
+- contraindicaciones de la vacuna Hexavalente:
+    use_entities: true
+- contraindicaciones de la vacuna Fiebre Amarilla:
+    use_entities: true
+- contraindicaciones de la vacuna Neumococica C:
+    use_entities: true
+- contraindicaciones de la vacuna Neumococica P:
+    use_entities: true
+- contraindicaciones de la vacuna Meningococica C:
+    use_entities: true
+- contraindicaciones de la vacuna Tres Virica:
+    use_entities: true
+- contraindicaciones de la vacuna Varicela:
+    use_entities: true
+- nlu_fallback:
+    use_entities: true
+- agradecimientos:
+    use_entities: true
+entities:
+- bcg
+- hb
+- hexa
+- tri
+- ha
+- varicela
+- fiebre
+- dtpa
+- vph
+- covid
+- neumoC
+- meninC
+- neumoP
+- info
+- tetanos
+- pap
+- sarampion
+- rubeola
+- paperas
+- precio
+- contraindicacion
+- seguridad
+- actua
+slots: {}
+responses:
+  utter_default:
+  - text: Disculpa, creo que no he logrado dar con una respuesta a tu pregunta, podriamos intentarlo nuevamente :).
+  utter_please_rephrase:
+  - buttons:
+    - payload: informacion de una vacuna
+      title: informacion de una vacuna
+    - payload: contraindicaciones de una vacuna
+      title: contraindicaciones de una vacuna
+    - payload: seguridad de una vacuna
+      title: seguridad de una vacuna
+    - payload: precio de una vacuna
+      title: precio de una vacuna
+    - payload: como actua una vacuna
+      title: como actua una vacuna
+    text: Disculpa, creo que no he logrado dar con una respuesta a tu pregunta, podriamos intentarlo nuevamente :). ¿Sobre que quieres consultar?
+  utter_greet:
+  - buttons:
+    - payload: informacion de una vacuna
+      title: informacion de una vacuna
+    - payload: contraindicaciones de una vacuna
+      title: contraindicaciones de una vacuna
+    - payload: seguridad de una vacuna
+      title: seguridad de una vacuna
+    - payload: precio de una vacuna
+      title: precio de una vacuna
+    - payload: como actua una vacuna
+      title: como actua una vacuna
+    text: ¡Hola! ¿En que puedo ayudarte?, Te dejo algunas opciones que podrian interesarte con respecto a las vacunas.
+  utter_informacion_vacuna:
+  - buttons:
+    - payload: informacion BCG
+      title: BCG
+    - payload: informacion VPH
+      title: VPH
+    - payload: informacion dTpa
+      title: dTpa
+    - payload: informacion Hepatitis B
+      title: Hepatitis B
+    - payload: informacion Hepatitis A
+      title: Hepatitis A
+    - payload: informacion Hexavalente
+      title: Hexavalente
+    - payload: informacion Fiebre Amarilla
+      title: Fiebre Amarilla
+    - payload: informacion Tres Virica
+      title: Tres Virica
+    - payload: informacion Varicela
+      title: Varicela
+    - payload: informacion Neumococica C
+      title: Neumococica Conjugada
+    - payload: informacion Neumococica P
+      title: Neumococica Polisacárida
+    - payload: informacion Meningococica C
+      title: Meningococica Conjugada
+    text: Sobre cual de estas vacunas quieres informacion ?
+  utter_contraindicacion_vacuna:
+  - buttons:
+    - payload: contraindicaciones de la vacuna BCG
+      title: BCG
+    - payload: contraindicaciones de la vacuna VPH
+      title: VPH
+    - payload: contraindicaciones de la vacuna dTpa
+      title: dTpa
+    - payload: contraindicaciones de la vacuna Hepatitis B
+      title: Hepatitis B
+    - payload: contraindicaciones de la vacuna Hepatitis A
+      title: Hepatitis A
+    - payload: contraindicaciones de la vacuna Hexavalente
+      title: Hexavalente
+    - payload: contraindicaciones de la vacuna Fiebre Amarilla
+      title: Fiebre Amarilla
+    - payload: contraindicaciones de la vacuna Tres Virica
+      title: Tres Virica
+    - payload: contraindicaciones de la vacuna Varicela
+      title: Varicela
+    - payload: contraindicaciones de la vacuna Neumococica C
+      title: Neumococica Conjugada
+    - payload: contraindicaciones de la vacuna Neumococica P
+      title: Neumococica Polisacárida
+    - payload: contraindicaciones de la vacuna Meningococica C
+      title: Meningococica Conjugada
+    text: Sobre cual de estas vacunas quieres saber sus contraindicaciones?
+  utter_precio_vacuna:
+  - buttons:
+    - payload: precio de la vacuna BCG
+      title: BCG
+    - payload: precio de la vacuna VPH
+      title: VPH
+    - payload: precio de la vacuna dTpa
+      title: dTpa
+    - payload: precio de la vacuna Hepatitis B
+      title: Hepatitis B
+    - payload: precio de la vacuna Hepatitis A
+      title: Hepatitis A
+    - payload: precio de la vacuna Hexavalente
+      title: Hexavalente
+    - payload: precio de la vacuna Fiebre Amarilla
+      title: Fiebre Amarilla
+    - payload: precio de la vacuna Tres Virica
+      title: Tres Virica
+    - payload: precio de la vacuna Varicela
+      title: Varicela
+    - payload: precio de la vacuna Neumococica C
+      title: Neumococica Conjugada
+    - payload: precio de la vacuna Neumococica P
+      title: Neumococica Polisacárida
+    - payload: precio de la vacuna Meningococica C
+      title: Meningococica Conjugada
+    text: Sobre cual de estas vacunas quieres saber su precio ?
+  utter_seguridad_vacuna:
+  - buttons:
+    - payload: seguridad de la vacuna BCG
+      title: BCG
+    - payload: seguridad de la vacuna VPH
+      title: VPH
+    - payload: seguridad de la vacuna dTpa
+      title: dTpa
+    - payload: seguridad de la vacuna Hepatitis B
+      title: Hepatitis B
+    - payload: seguridad de la vacuna Hepatitis A
+      title: Hepatitis A
+    - payload: seguridad de la vacuna Hexavalente
+      title: Hexavalente
+    - payload: seguridad de la vacuna Fiebre Amarilla
+      title: Fiebre Amarilla
+    - payload: seguridad de la vacuna Tres Virica
+      title: Tres Virica
+    - payload: seguridad de la vacuna Varicela
+      title: Varicela
+    - payload: seguridad de la vacuna Neumococica C
+      title: Neumococica Conjugada
+    - payload: seguridad de la vacuna Neumococica P
+      title: Neumococica Polisacárida
+    - payload: seguridad de la vacuna Meningococica C
+      title: Meningococica Conjugada
+    text: Sobre cual de estas vacunas quieres saber su seguridad ?
+  utter_actua_vacuna:
+  - buttons:
+    - payload: como actua la vacuna BCG
+      title: BCG
+    - payload: como actua la vacuna VPH
+      title: VPH
+    - payload: como actua la vacuna dTpa
+      title: dTpa
+    - payload: como actua la vacuna Hepatitis B
+      title: Hepatitis B
+    - payload: como actua la vacuna Hepatitis A
+      title: Hepatitis A
+    - payload: como actua la vacuna Hexavalente
+      title: Hexavalente
+    - payload: como actua la vacuna Fiebre Amarilla
+      title: Fiebre Amarilla
+    - payload: como actua la vacuna Tres Virica
+      title: Tres Virica
+    - payload: como actua la vacuna Varicela
+      title: Varicela
+    - payload: como actua la vacuna Neumococica C
+      title: Neumococica Conjugada
+    - payload: como actua la vacuna Neumococica P
+      title: Neumococica Polisacárida
+    - payload: como actua la vacuna Meningococica C
+      title: Meningococica Conjugada
+    text: Sobre cual de estas vacunas quieres saber como actua ?
+  utter_no_informacion:
+  - text: Disculpa, Sobre que vacuna o enfermedad quieres saber ?
+  utter_informacion_bcg:
+  - text: La vacuna BCG (o "bacilo de Calmette-Guérin"), es una inyección intredérmica que protege a los lactantes y niño(a)s contra enfermedades invasoras por M. tuberculosis, como la meningitis tuberculosa.
+  utter_informacion_hb:
+  - text: Esta vacuna protege de la hepatitis B y del cáncer de hígado causado por la hepatitis B.  Al vacunar a los niños además se protege a otras personas de esta enfermedad porque los niños con hepatitis B por lo general no tienen síntomas, pero la pueden transmitir a los demás sin que nadie sepa que están infectados.
+  utter_informacion_hexa:
+  - text: 'La vacuna hexavalente es un conjunto de vacunas que tiene como propósito prevenir en los lactantes las siguientes enfermedades: difteria, tétanos, tos convulsiva, hepatitis B, poliomielitis y las enfermedades invasoras causadas por haemophilus influenzae tipo b. Y todas las complicaciones y consecuencias asociadas.'
+  utter_informacion_tri:
+  - text: La vacuna tresvírica es una inyección que evita que los niños enfermen de sarampión, las paperas y la rubéola. Aunque la mayoría de las personas se recuperan de estas enfermedades, estas enfermedades puede tener graves consecuencias como la muerte.
+  utter_informacion_ha:
+  - text: La vacuna contra la hepatitis A es una inyección en el músculo que protege contra la hepatitis A.
+  utter_informacion_varicela:
+  - text: La vacuna de la varicela previene la enfermedad conocida como varicela o  peste cristal. Esta enfermedad es un exantema vesiculoso que corresponde a la manifestación clínica de la primoinfección por el virus varicela-zóster, cuyo único reservorio es el ser humano. Este virus conduce a una infección latente de por vida en las neuronas de los ganglios sensitivos y su reactivación, generalmente en la edad adulta, es causa de herpes zóster.
+  utter_informacion_fiebre:
+  - text: La vacuna contra la fiebre amarilla es una inyección que protege contra la enfermedad conocida como fiebre amarilla y sus consecuencias en el ser humano. La fiebre amarilla es una enfermedad aguda viral, hemorrágica, transmitida por mosquitos infectados.  Los síntomas tardan de 3 a 6 días en aparecer e incluyen fiebre, escalofríos, dolor de cabeza, dolor de espalda y dolores musculares. Aproximadamente el 15% de las personas que contraen fiebre amarilla desarrollan una enfermedad grave que puede provocar sangrado, shock, insuficiencia orgánica y, a veces, la muerte.
+  utter_informacion_dtpa:
+  - text: La vacuna dTpa es una mezcla de tres vacunas que posee fragmentos bacterianos inactivados, que se inyecta en el músculo para evitar que los niños y niñas enfermen de difteria, tétano y tos convulsiva (coqueluche) y sufran sus graves consecuencias.
+  utter_informacion_vph:
+  - text: La vacuna del Virus Papiloma Humano (VPH)  previene Infecciones por Virus Papiloma Humano, virus que puede ocasionar cáncer del cuello del útero (cervicouterino), cáncer del ano y pene, y la muerte. La vacuna contra VPH tetravalente cubre contra los serotipos 6, 11, 16 y 18. Estas 4 cepas son de las más riesgosas y son responsables de aproximadamente el 70% de los cánceres de cuello uterino y el 90% de las verrugas genitales.
+  utter_informacion_covid:
+  - text: No tengo informacion sobre la vacuna/enfermedad Covid
+  utter_informacion_neumoC:
+  - text: 'La vacuna antineumocócica (PCV13 o Prevenar 13®) es una inyección que protege contra 13 serotipos de Streptococcus pneumoniae, una bacteria que puede causar enfermedades graves y mortales, tales como, meningitis, neumonia, sepsis y bacteremia, entre otras. '
+  utter_informacion_meninC:
+  - text: 'La vacuna antimeningocócica o contra el meningococo es una inyección intramuscular que protege a los niños y niñas contra la enfermedad meningocócica invasiva causada por la bacteria Neisseria meningitidis o normalmente conocida como meningococo. '
+  utter_informacion_neumoP:
+  - text: La vacuna antineumocócica (PPSV23 o Pneumovax®) es una inyección que protege contra 23 tipos de Streptococcus pneumoniae, una bacteria que puede causar enfermedades graves y mortales, tales como, meningitis, neumonia, sepsis y bacteremia, entre otras
+  utter_contraindicaciones_bcg:
+  - text: 'Algunas de las contraindicaciones para la adminitración de la vacuna BCG son: Peso menor a 2 Kg (se debe esperar hasta que el menor tenga el peso mínimo de 2Kg), RN con infección VIH sintomática, eritroblastosis fetal, enfermedades cutáneas extensas sobreinfectadas o que comprometan el área de vacunación, o enfermedades con grave compromiso del estado general. Si tiene dudas consultar al médico de cabecera en Neonatología.'
+  utter_contraindicaciones_hb:
+  - text: La administración de la vacuna de la hepatitis B está contraindicada en caso de anafilaxia o alergia a los componentes de la vacuna, las reacciones adversas severas a dosis previas, un cuadro febril importante, y en el caso de un recién nacido, prematurez con peso inferior a 2000 grs. No constituyen contraindicación el embarazo ni la lactancia.
+  utter_contraindicaciones_hexa:
+  - text: No tengo informacion sobre las contraindicaciones
+  utter_contraindicaciones_tri:
+  - text: Es importante considerar si tiene hipersensibilidad a alguno de los componentes de la vacuna tresvírica (alergia a gelatina y lactoalbúmina) , inmunodeficiencia y embarazo.  La alergia al huevo NO es una contraindicación.Consulte a su médico/pediatra si tiene dudas.
+  utter_contraindicaciones_ha:
+  - text: ' La vacuna de la hepatitis A no se debe administrar a personas con hipersensibilidad conocida a cualquier componente de la vacuna. Consulte a su médico/pediatra si tiene dudas.'
+  utter_contraindicaciones_varicela:
+  - text: No tengo informacion sobre las contraindicaciones
+  utter_contraindicaciones_fiebre:
+  - text: Las contraindicaciones para recibir la vacuna contra la fiebre amarilla incluyen edad <6 meses, hipersensibilidad a los componentes de la vacuna y diversas formas de inmunidad alterada (incluida la infección por VIH sintomática o la infección por VIH con inmunosupresión grave). Si tiene dudas consulte a su médico.
+  utter_contraindicaciones_dtpa:
+  - text: No tengo informacion sobre las contraindicaciones
+  utter_contraindicaciones_vph:
+  - text: Aquellas niñas o niños que en el momento de la vacunación estén con alguna enfermedad aguda de intensidad moderada o grave, deben esperar hasta mejorarse de la enfermedad para vacunarse. Las niñas o niños que hayan sido vacunados previamente contra VPH y hayan presentado una alergia severa, requieren de evaluación médica antes de vacunarse. Por falta de mayor información, no se deben vacunar las mujeres embarazadas. Si  al momento de la vacunación se encuentra resfriada o con fiebre (menor a 38 ºC) sí puede recibir la vacuna contra el VPH, ya que estos síntomas no constituyen contraindicación para vacunarse.
+  utter_contraindicaciones_covid:
+  - text: No tengo informacion sobre las contraindicaciones
+  utter_contraindicaciones_neumoC:
+  - text: La vacuna antineumocócica conjugada está contraindicada en hipersensibilidad (alergia) a alguno de los componentes de la vacuna. En caso de contar con una enfermedad moderada-grave consulte a su médico.
+  utter_contraindicaciones_meninC:
+  - text: La vacuna antimeningocócica está contraindicada en hipersensibilidad (alergia) a alguno de los componentes de la vacuna. En caso de contar con una enfermedad moderada-grave consulte a su médico.
+  utter_contraindicaciones_neumoP:
+  - text: La vacuna neumocócica polisacárida está contraindicada en hipersensibilidad (alergia) a alguno de los componentes de la vacuna. En caso de contar con una enfermedad moderada-grave consulte a su médico.
+  utter_precio_bcg:
+  - text: El Programa Nacional de Inmunización (PNI)  deber de garantizar el libre e igualitario acceso a todas las vacunas incluídas para los grupos poblacionales definidos en el mismo programa. La vacuna BCG esta incorporada en el PNI, por lo tanto su administración gratuita.
+  utter_precio_hb:
+  - text: 'El Programa Nacional de Inmunización debe garantizar el libre e igualitario acceso a todas las vacunas incluídas para los grupos poblacionales definidos en el mismo programa. Las personas incluidas en el Programa Nacional de Inmunizaciones para recibir esta vacuna son las siguientes: 1.- Recién nacidos hijos de madre con Antígeno de superficie de Hepatitis B positivo (AgsHB) deben recibir vacuna anti Hepatitis B antes de las 12 horas de nacido. Después de esta primera inmunización debe continuar con el esquema definido según calendario del Programa Nacional de Inmunizaciones a los 2, 4, 6 y 18 meses. 2.- Personal del Área de salud, profesionales, técnicos y personal que desarrolle labores de atención de salud directa a pacientes, todos pertenecientes a establecimientos de salud de los Servicios de Salud del país, experimentales y de la atención primaria de municipalidades, que cumpla con las siguientes características, debe recibir 3 dosis de vacuna anti Hepatitis B, con el esquema establecido de 0, 1 y 6 meses. 3.-Personas con diagnóstico de Insuficiencia Renal Crónica (IRC), deben recibir vacunación anti Hepatitis B, con un esquema de 3 dosis a los 0, 1, y 6 meses. Este esquema debe iniciarse lo más precoz posible, una vez confirmado el diagnostico de IRC. 4.- Personas sometidas a hemodiálisis y diálisis peritoneal deben recibir vacuna anti Hepatitis B, en un esquema de 4 dosis a los 0, 1, 2, y 6 meses. 5.- Personas que correspondan a contacto intrafamiliar y/o contacto sexual, de un individuo confirmado como Hepatitis B (+), y que tengan un resultado negativo para Antígeno de superficie de Hepatitis B, deben ser vacunados con un esquema de tres dosis (0,1 y 6). 6.- Personas Víctimas de violencia sexual, con riesgo de contagio por virus Hepatitis B, no vacunadas y con exámenes de Antígeno de superficie de Hepatitis B negativo, deben recibir tres dosis de la vacuna anti Hepatitis B, en el esquema establecido de 0, 1 y 6 meses, por una vez en la vida.'
+  utter_precio_hexa:
+  - text: El Programa Nacional de Inmunización deber de garantizar el libre e igualitario acceso a todas las vacunas incluídas para los grupos poblacionales definidos en el mismo programa. La vacuna hexavalente se encuentra incluída, por lo tanto es gratuita.
+  utter_precio_tri:
+  - text: La vacuna trescírica es gratuita, así como todas las incluidas en el Calendario Nacional de Vacunación vigente, independientemente del sistema previsional de salud (FONASA, ISAPRE, Fuerzas Armadas o de Orden y Seguridad) al que esté adscrito la persona.
+  utter_precio_ha:
+  - text: El Programa Nacional de Inmunización deber de garantizar el libre e igualitario acceso a todas las vacunas incluídas para los grupos poblacionales definidos en el mismo programa. Se encuentra disponible en todos los vacunatorios públicos y privados en convenio con las Secretarias Ministeriales de Salud de cada región.
+  utter_precio_varicela:
+  - text: La vacuna contra la varicela se aplica de manera gratuita y obligatoria en todos los niños y niñas de 18 meses a partir del 1 de julio de 2020.
+  utter_precio_fiebre:
+  - text: Para los menores de 18 meses la vacuna de la fiebre amarilla de la Isla de Pascua es gratuita, ya que el Programa Nacional de Inmunización garantizaa el libre e igualitario acceso para la población definida por cada vacuna. Los viajeros deben acceder a la vacuna según sus prevenciones de salud.
+  utter_precio_dtpa:
+  - text: El Programa Nacional de Inmunización deber de garantizar el libre e igualitario acceso a todas las vacunas incluídas para los grupos poblacionales definidos en el mismo programa. La dTpa esta incluida para la población escolar de 1º básico.
+  utter_precio_vph:
+  - text: La vacuna contra el VPH, así como todas las del Plan Nacional de Inmunizaciones, son gratuitas para los grupos definidos, sin importar el sistema de previsión de salud (FONASA, ISAPRE, Fuerzas Armadas o de Orden y Seguridad) al que se esté afiliado.
+  utter_precio_covid:
+  - text: No tengo informacion sobre el precio de la vacuna (Covid)
+  utter_precio_neumoC:
+  - text: El Programa Nacional de Inmunización deber de garantizar el libre e igualitario acceso a todas las vacunas incluídas para los grupos poblacionales definidos en el mismo programa.Corresponde administrar la vacuna antineumocócica conjugada en prematuros a los  2, 4 y 6 meses de edad. Además, de niños y niñas de 12 meses de edad.
+  utter_precio_meninC:
+  - text: El Programa Nacional de Inmunización deber de garantizar el libre e igualitario acceso a todas las vacunas incluídas para los grupos poblacionales definidos en el mismo programa. En el año 2014 se incorpora al calendario del PNI la vacuna antimeningocócica para los niños y niñas de 12 meses.
+  utter_precio_neumoP:
+  - text: El Programa Nacional de Inmunización deber de garantizar el libre e igualitario acceso a todas las vacunas incluídas para los grupos poblacionales definidos en el mismo programa.
+  utter_seguridad_bcg:
+  - text: La vacuna BCG cumple con los estándares internacionales de regulación en vacunas por la Organización Mundial de la Salud, además está registrada y aprobada para su uso en Chile por el Instituto de Salud Pública. Las vacunas, al igual que cualquier medicamento, pueden tener efectos secundarios. Pero los efectos secundarios graves causados por la vacuna BCG son extremadamente raros.
+  utter_seguridad_hb:
+  - text: La vacuna contra la hepatitis B es muy segura y eficaz para prevenir esta enfermedad. Las vacunas, al igual que cualquier medicamento, pueden tener efectos secundarios. Pero los efectos secundarios graves causados por la vacuna contra la hepatitis B son extremadamente raros.
+  utter_seguridad_hexa:
+  - text: La vacuna hexavalente cumple con los estándares internacionales de regulación en vacunas. Ha demostrado ser completamente segura y eficaz logrando un gran nivel de protección contra las enfermedades que cubre.
+  utter_seguridad_tri:
+  - text: La vacuna tresvírica cumple con los estándares internacionales de regulación en vacunas por la Organización Mundial de la Salud, además está registrada y aprobada para su uso en Chile por el Instituto de Salud Pública.
+  utter_seguridad_ha:
+  - text: La vacuna de la hepatitis A cumple con los estándares internacionales de regulación en vacunas por la Organización Mundial de la Salud, además está registrada y aprobada para su uso en Chile por el Instituto de Salud Pública.
+  utter_seguridad_varicela:
+  - text: La vacuna de varicela cumple con los estándares internacionales de regulación en vacunas por la Organización Mundial de la Salud, además está registrada y aprobada para su uso en Chile por el Instituto de Salud Pública.
+  utter_seguridad_fiebre:
+  - text: La vacuna de la fiebre amarilla es segura, asequible, eficaz, y cumple con los estádares de regulación. El ISP es un garante de la calidad, seguridad y eficacia de todos los medicamentos y vacunas que cuentan con registro sanitario en Chile.
+  utter_seguridad_dtpa:
+  - text: La vacuna de la dTpa cumple con los estándares internacionales de regulación en vacunas. Ha demostrado ser completamente segura y eficaz logrando un gran nivel de protección contra las enfermedades que cubre. Además, está registrada y aprobada para su uso en Chile por el Instituto de Salud Pública.
+  utter_seguridad_vph:
+  - text: Gardasil está aprobado para su uso en 132 países, incluyendo Japón en 2011. Hoy en día se han distribuido en todo el mundo más de 208 millones de dosis de Gardasil. Las principales organizaciones de salud en todo el mundo, incluyendo la OMS, los CDC, Health Canada, la Agencia Europea de Medicamentos (EMA), y la Australia Therapeutic Goods Administration (TGA), entre otros, también recomiendan el uso rutinario de vacunas contra el VPH. Además el ISP es un garante de la calidad, seguridad y eficacia de todos los medicamentos y vacunas que cuentan con registro sanitario en Chile.
+  utter_seguridad_covid:
+  - text: No tengo informacion sobre la seguridad de la vacuna (Covid)
+  utter_seguridad_neumoC:
+  - text: La vacuna antineumocócica conjugada cumple con los estándares internacionales de regulación en vacunas por la Organización Mundial de la Salud, además está registrada y aprobada para su uso en Chile por el Instituto de Salud Pública.
+  utter_seguridad_meninC:
+  - text: La vacuna antimeningocócica cumple con los estándares internacionales de regulación en vacunas por la Organización Mundial de la Salud, además está registrada y aprobada para su uso en Chile por el Instituto de Salud Pública.
+  utter_seguridad_neumoP:
+  - text: La vacuna neumocócica polisacárida cumple con los estándares internacionales de regulación en vacunas por la Organización Mundial de la Salud, además está registrada y aprobada para su uso en Chile por el Instituto de Salud Pública.
+  utter_actua_bcg:
+  - text: La BCG es una vacuna con bacterias vivas atenuadas. Proporciona protección contra formas graves de Tuberculosis pediátrica no pulmonar, como la meningitis tuberculosa. Es en la actualidad la única vacuna disponible contra la Tuberculosis. Esta vacuna estimula el sistema inmunológico de los niños y niñas para responder y recordar la bacteria. Por lo tanto, si en el futuro el niño o niña llega a entrar en contacto con esta bacteria, el sistema inmunológico lo va a recordar, de esta manera va a controlar la infección para prevenir la enfermedad.
+  utter_actua_hb:
+  - text: Disculpa, no tengo informacion sobre como actua la vacuna (Hepatitis B)
+  utter_actua_hexa:
+  - text: Disculpa, no tengo informacion sobre como actua la vacuna (Hexavalente)
+  utter_actua_tri:
+  - text: La vacuna tresvírica contiene virus vivo atenuado. Esta vacuna estimula el sistema inmunológico de los niños y niñas para responder y recordar los virus. Por lo tanto si en el futuro el niño o niña llega a entrar en contacto con estos virus, el sistema inmunológico lo va a recordar, de esta manera va a controlar la infección para prevenir la enfermedad.
+  utter_actua_ha:
+  - text: La vacuna de la hepatitis A contiene virus inactivado. Esta vacuna estimula el sistema inmunológico de los niños y niñas para responder y recordar los virus. Por lo tanto si en el futuro el niño o niña llega a entrar en contacto con estos virus, el sistema inmunológico lo va a recordar, de esta manera va a controlar la infección para prevenir la enfermedad.
+  utter_actua_varicela:
+  - text: Disculpa, no tengo informacion sobre como actua la vacuna (Varicela)
+  utter_actua_fiebre:
+  - text: La vacuna de la fiebre amarilla contiene virus vivo atenuado. Esta vacuna estimula el sistema inmunológico de los niños y niñas para responder y recordar los virus. Por lo tanto si en el futuro el niño o niña llega a entrar en contacto con estos virus, el sistema inmunológico lo va a recordar, de esta manera va a controlar la infección para prevenir la enfermedad.
+  utter_actua_dtpa:
+  - text: La vacuna dTpa es una mezcla de tres vacunas que posee fragmentos bacterianos inactivados, es acelular porque no contiene las bacterias completas. Esta vacuna estimula el sistema inmunológico de los niños y niñas para responder y recordar los microorganismos. Por lo tanto si en el futuro el niño o niña llega a entrar en contacto con estos virus, el sistema inmunológico lo va a recordar, de esta manera va a controlar la infección para prevenir la enfermedad.
+  utter_actua_vph:
+  - text: La vacuna Gardasil está hecha de pequeñas proteínas que se parecen a la parte exterior del VPH real, NO contiene ADN viral, NO puede infectar células, reproducirse ni causar enfermedades. Estas proteínas “imitan” al VPH sin causar la enfermedad. Esto estimula al sistema inmune para generar una respuesta inmunológica en la persona, acumulando defensas para cuando se contagie con el virus real. De esta manera nuestro organismo puede atacar al virus al ingresar al organismo y evitar que nos enfermemos (inmunidad).
+  utter_actua_covid:
+  - text: Disculpa, no tengo informacion sobre el lugar de fabricacion ni el fabricante de la vacuna (Covid)
+  utter_actua_neumoC:
+  - text: La vacuna antineumocócica conjugada protege contra 13 serotipos (tipos) de S. pneumoniae que causan la enfermedad neumocócica. Esta vacuna estimula el sistema inmunológico de los niños y niñas para responder y recordar las bacterias. Por lo tanto, si en el futuro el niño o niña llega a entrar en contacto con esta bacteria, el sistema inmunológico lo va a recordar, de esta manera va a controlar la infección para prevenir las enfermedades.
+  utter_actua_meninC:
+  - text: La vacuna antimeningocócica o contra el meningococo es una vacuna conjugada por 4 subgrupos de Neisseria meningitidis o meningococo (los serogrupos A, C, W-135 e Y) . Esta vacuna meningocócica estimula el sistema inmunológico de los niños y niñas para responder y recordar la bacteria. Por lo tanto, si en el futuro el niño o niña llega a entrar en contacto con esta bacteria, el sistema inmunológico la va a recordar, de esta manera va a controlar la infección para prevenir las enfermedades.
+  utter_actua_neumoP:
+  - text: La vacuna antineumocócica conjugada protege contra 23 tipos de S. pneumoniae que causan la enfermedad neumocócica. Esta vacuna estimula el sistema inmunológico de las personas para responder y recordar la bacteria. Por lo tanto, si en el futuro la persona llega a entrar en contacto con esta bacteria, el sistema inmunológico lo va a recordar, de esta manera va a controlar la infección para prevenir las enfermedades.
+actions:
+- utter_informacion_covid
+- utter_informacion_bcg
+- utter_informacion_dtpa
+- utter_informacion_fiebre
+- utter_informacion_ha
+- utter_informacion_hb
+- utter_informacion_tri
+- utter_informacion_varicela
+- utter_informacion_vph
+- utter_informacion_hexa
+- utter_informacion_neumoC
+- utter_informacion_neumoP
+- utter_informacion_meninC
+- utter_contraindicaciones_covid
+- utter_contraindicaciones_bcg
+- utter_contraindicaciones_dtpa
+- utter_contraindicaciones_fiebre
+- utter_contraindicaciones_ha
+- utter_contraindicaciones_hb
+- utter_contraindicaciones_tri
+- utter_contraindicaciones_varicela
+- utter_contraindicaciones_vph
+- utter_contraindicaciones_hexa
+- utter_contraindicaciones_neumoC
+- utter_contraindicaciones_neumoP
+- utter_contraindicaciones_meninC
+- utter_precio_covid
+- utter_precio_bcg
+- utter_precio_dtpa
+- utter_precio_fiebre
+- utter_precio_ha
+- utter_precio_hb
+- utter_precio_tri
+- utter_precio_varicela
+- utter_precio_vph
+- utter_precio_hexa
+- utter_precio_neumoC
+- utter_precio_neumoP
+- utter_seguridad_covid
+- utter_seguridad_bcg
+- utter_seguridad_dtpa
+- utter_seguridad_fiebre
+- utter_seguridad_ha
+- utter_seguridad_hb
+- utter_seguridad_tri
+- utter_seguridad_varicela
+- utter_seguridad_vph
+- utter_seguridad_hexa
+- utter_seguridad_neumoC
+- utter_seguridad_neumoP
+- utter_seguridad_meninC
+- utter_actua_covid
+- utter_actua_bcg
+- utter_actua_dtpa
+- utter_actua_fiebre
+- utter_actua_ha
+- utter_actua_hb
+- utter_actua_tri
+- utter_actua_varicela
+- utter_actua_vph
+- utter_actua_hexa
+- utter_actua_neumoC
+- utter_actua_neumoP
+- utter_actua_meninC
+- utter_no_informacion
+- utter_informacion_vacuna
+- utter_contraindicacion_vacuna
+- utter_precio_vacuna
+- utter_seguridad_vacuna
+- utter_actua_vacuna
+forms: {}
+e2e_actions: []

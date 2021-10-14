@@ -1,0 +1,12 @@
+version: "2.0"
+
+rules:
+- rule: restructurar la pregunta cuando no hay confidencia a ninguna oracion NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
+
+#- rule: regla 1
+#  steps:
+#  - intent: bot_atencion
+#  - action: action_contraindicaciones_todas

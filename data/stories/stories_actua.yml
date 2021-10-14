@@ -1,0 +1,156 @@
+
+# contraindicaiones
+version: "2.0"
+stories:
+- story: actua vacuna bcg
+  steps:
+  - intent: como actua una vacuna
+    entities:
+    - actua
+  - action: utter_actua_vacuna
+  - intent: como actua la vacuna BCG
+    entities:
+    - actua
+    - bcg
+  - action: utter_actua_bcg
+
+- story: actua vacuna vph
+  steps:
+  - intent: como actua una vacuna
+    entities:
+    - actua
+  - action: utter_actua_vacuna
+  - intent: como actua la vacuna VPH
+    entities:
+    - actua
+    - vph
+  - action: utter_actua_vph
+
+
+- story: actua vacuna dtpa
+  steps:
+  - intent: como actua una vacuna
+    entities: 
+    - actua
+  - action: utter_actua_vacuna
+  - intent: como actua la vacuna dTpa
+    entities:
+    - actua
+    - dtpa
+  - action: utter_actua_dtpa
+
+
+- story: actua vacuna hb
+  steps:
+  - intent: como actua una vacuna
+    entities: 
+    - actua
+  - action: utter_actua_vacuna
+  - intent: como actua la vacuna Hepatitis B
+    entities:
+    - actua
+    - hb
+  - action: utter_actua_hb
+
+- story: actua vacuna ha
+  steps:
+  - intent: como actua una vacuna
+    entities: 
+    - actua
+  - action: utter_actua_vacuna
+  - intent: como actua la vacuna Hepatitis A
+    entities:
+    - actua
+    - ha
+  - action: utter_actua_ha
+
+
+- story: actua vacuna hexa
+  steps:
+  - intent: como actua una vacuna
+    entities: 
+    - actua
+  - action: utter_actua_vacuna
+  - intent: como actua la vacuna Hexavalente
+    entities:
+    - actua
+    - hexa
+  - action: utter_actua_hexa
+
+
+- story: actua vacuna fiebre
+  steps:
+  - intent: como actua una vacuna
+    entities: 
+    - actua
+  - action: utter_actua_vacuna
+  - intent: como actua la vacuna Fiebre Amarilla
+    entities:
+    - actua
+    - fiebre
+  - action: utter_actua_fiebre
+
+
+- story: actua vacuna neumoC
+  steps:
+  - intent: como actua una vacuna
+    entities: 
+    - actua
+  - action: utter_actua_vacuna
+  - intent: como actua la vacuna Neumococica C
+    entities:
+    - actua
+    - neumoC
+  - action: utter_actua_neumoC
+
+
+- story: actua vacuna neumoP
+  steps:
+  - intent: como actua una vacuna
+    entities: 
+    - actua
+  - action: utter_actua_vacuna
+  - intent: como actua la vacuna Neumococica P
+    entities:
+    - actua
+    - neumoP
+  - action: utter_actua_neumoP
+
+
+- story: actua vacuna meninC
+  steps:
+  - intent: como actua una vacuna
+    entities: 
+    - actua
+  - action: utter_actua_vacuna
+  - intent: como actua la vacuna Meningococica C
+    entities:
+    - actua
+    - meninC
+  - action: utter_actua_meninC
+
+
+- story: actua vacuna tri
+  steps:
+  - intent: como actua una vacuna
+    entities: 
+    - actua
+  - action: utter_actua_vacuna
+  - intent: como actua la vacuna Tres Virica
+    entities:
+    - actua
+    - tri
+  - action: utter_actua_tri
+
+- story: actua vacuna varicela
+  steps:
+  - intent: como actua una vacuna
+    entities: 
+    - actua
+  - action: utter_actua_vacuna
+  - intent: como actua la vacuna Varicela
+    entities:
+    - actua
+    - varicela
+  - action: utter_actua_varicela
+

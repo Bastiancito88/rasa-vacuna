@@ -1,0 +1,76 @@
+
+version: "2.0"
+nlu:
+- intent: precio de la vacuna BCG
+  examples: |
+    - ¿[Es gratis](precio) la vacuna [bcg](bcg)? 
+    - ¿[Tiene costo](precio) la vacuna [bcg](bcg)? 
+    - ¿La vacuna [bcg](bcg) del calendario de vacunación [es gratuita](precio)? 
+
+- intent: precio de la vacuna VPH
+  examples: |
+    - ¿[Es gratis](precio) la vacuna [vph](vph)? 
+    - ¿[Tiene costo](precio) la vacuna [vph](vph)? 
+    - ¿La vacuna [vph](vph) del calendario de vacunación [es gratuita](precio)? 
+    - ¿[Es gratis](precio) la vacuna [papiloma](vph)? 
+
+- intent: precio de la vacuna dTpa
+  examples: |
+    - ¿[Es gratis](precio) la vacuna [dtpa](dtpa)? 
+    - ¿[Tiene costo](precio) la vacuna [dtpa](dtpa)? 
+    - ¿La vacuna [dtpa](dtpa) del calendario de vacunación [es gratuita](precio)? 
+
+- intent: precio de la vacuna Hepatitis A
+  examples: |
+    - ¿[Es gratis](precio) la vacuna [Hepatitis A](ha)? 
+    - ¿[Tiene costo](precio) la vacuna [Hepatitis A](ha)? 
+    - ¿La vacuna [Hepatitis A](ha) del calendario de vacunación [es gratuita](precio)? 
+
+- intent: precio de la vacuna Hepatitis B
+  examples: |
+    - ¿[Es gratis](precio) la vacuna [Hepatitis B](hb)? 
+    - ¿[Tiene costo](precio) la vacuna [Hepatitis A](hb)? 
+    - ¿La vacuna [Hepatitis B](hb) del calendario de vacunación [es gratuita](precio)? 
+
+- intent: precio de la vacuna Hexavalente
+  examples: |
+    - ¿[Es gratis](precio) la vacuna [Hexavalente](hexa)? 
+    - ¿[Tiene costo](precio) la vacuna [Hexavalente](hexa)? 
+    - ¿La vacuna [Hexavalente](hexa) del calendario de vacunación [es gratuita](precio)? 
+
+- intent: precio de la vacuna Fiebre Amarilla
+  examples: |
+    - ¿[Es gratis](precio) la vacuna [Fiebre Amarilla](fiebre)? 
+    - ¿[Tiene costo](precio) la vacuna [Fiebre Amarilla](fiebre)? 
+    - ¿La vacuna [Fiebre Amarilla](fiebre) del calendario de vacunación [es gratuita](precio)? 
+
+- intent: precio de la vacuna Tres Virica
+  examples: |
+    - ¿[Es gratis](precio) la vacuna [Tres Virica](tri)? 
+    - ¿[Tiene costo](precio) la vacuna [Tres Virica](tri)? 
+    - ¿La vacuna [Tres Virica](tri) del calendario de vacunación [es gratuita](precio)? 
+
+- intent: precio de la vacuna Varicela
+  examples: |
+    - ¿[Es gratis](precio) la vacuna [Varicela](varicela)? 
+    - ¿[Tiene costo](precio) la vacuna [Varicela](varicela)? 
+    - ¿La vacuna [Varicela](varicela) del calendario de vacunación [es gratuita](precio)? 
+
+
+- intent: precio de la vacuna Neumococica C
+  examples: |
+    - ¿[Es gratis](precio) la vacuna [Neumocócica conjugada](neumoC)? 
+    - ¿[Tiene costo](precio) la vacuna [Neumocócica conjugada](neumoC)? 
+    - ¿La vacuna [Neumocócica conjugada](neumoC) del calendario de vacunación [es gratuita](precio)? 
+
+- intent: precio de la vacuna Neumococica P
+  examples: |
+    - ¿[Es gratis](precio) la vacuna [neumocócica polisacárida](neumoP)? 
+    - ¿[Tiene costo](precio) la vacuna [neumocócica polisacárida](neumoP)? 
+    - ¿La vacuna [neumocócica polisacárida](neumoP) del calendario de vacunación [es gratuita](precio)? 
+
+- intent: precio de la vacuna Meningococica C
+  examples: |
+    - ¿[Es gratis](precio) la vacuna [meningocócica conjugada](meninC)? 
+    - ¿[Tiene costo](precio) la vacuna [meningocócica conjugada](meninC)? 
+    - ¿La vacuna [meningocócica conjugada](meninC) del calendario de vacunación [es gratuita](precio)? 

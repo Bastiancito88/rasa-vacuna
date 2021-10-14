@@ -1,0 +1,152 @@
+# seguridad
+version: "2.0"
+
+stories:
+- story: seguridad vacuna bcg
+  steps:
+  - intent: seguridad de una vacuna
+    entities:
+    - seguridad
+  - action: utter_seguridad_vacuna
+  - intent: seguridad de la vacuna BCG
+    entities:
+    - seguridad
+    - bcg 
+  - action: utter_seguridad_bcg
+
+
+- story: seguridad vacuna vph
+  steps:
+  - intent: seguridad de una vacuna
+    entities:
+    - seguridad
+  - action: utter_seguridad_vacuna
+  - intent: seguridad de la vacuna VPH
+    entities:
+    - seguridad
+    - vph
+  - action: utter_seguridad_vph
+
+
+- story: seguridad vacuna dtpa
+  steps:
+  - intent: seguridad de una vacuna
+    entities:
+    - seguridad
+  - action: utter_seguridad_vacuna
+  - intent: seguridad de la vacuna dTpa
+    entities:
+    - seguridad
+    - dtpa
+  - action: utter_seguridad_dtpa
+
+
+- story: seguridad vacuna hb
+  steps:
+  - intent: seguridad de una vacuna
+    entities:
+    - seguridad
+  - action: utter_seguridad_vacuna
+  - intent: seguridad de la vacuna Hepatitis B
+    entities:
+    - seguridad
+    - hb
+  - action: utter_seguridad_hb
+
+- story: seguridad vacuna ha
+  steps:
+  - intent: seguridad de una vacuna
+    entities:
+    - seguridad
+  - action: utter_seguridad_vacuna
+  - intent: seguridad de la vacuna Hepatitis A
+    entities:
+    - seguridad
+    - ha
+  - action: utter_seguridad_ha
+
+- story: seguridad vacuna hexa
+  steps:
+  - intent: seguridad de una vacuna
+    entities:
+    - seguridad
+  - action: utter_seguridad_vacuna
+  - intent: seguridad de la vacuna Hexavalente
+    entities:
+    - seguridad
+    - hexa
+  - action: utter_seguridad_hexa
+
+
+- story: seguridad vacuna fiebre
+  steps:
+  - intent: seguridad de una vacuna
+    entities:
+    - seguridad
+  - action: utter_seguridad_vacuna
+  - intent: seguridad de la vacuna Fiebre Amarilla
+    entities:
+    - seguridad
+    - fiebre
+  - action: utter_seguridad_fiebre
+
+
+- story: seguridad vacuna neumoC
+  steps:
+  - intent: seguridad de una vacuna
+    entities:
+    - seguridad
+  - action: utter_seguridad_vacuna
+  - intent: seguridad de la vacuna Neumococica C
+    entities:
+    - seguridad
+    - neumoC
+  - action: utter_seguridad_neumoC
+
+- story: seguridad vacuna neumoP
+  steps:
+  - intent: seguridad de una vacuna
+    entities:
+    - seguridad
+  - action: utter_seguridad_vacuna
+  - intent: seguridad de la vacuna Neumococica P
+    entities:
+    - seguridad
+    - neumoP
+  - action: utter_seguridad_neumoP
+
+- story: seguridad vacuna meninC
+  steps:
+  - intent: seguridad de una vacuna
+    entities:
+    - seguridad
+  - action: utter_seguridad_vacuna
+  - intent: seguridad de la vacuna Meningococica C
+    entities:
+    - seguridad
+    - meninC
+  - action: utter_seguridad_meninC
+
+- story: seguridad vacuna tri
+  steps:
+  - intent: seguridad de una vacuna
+    entities:
+    - seguridad
+  - action: utter_seguridad_vacuna
+  - intent: seguridad de la vacuna Tres Virica
+    entities:
+    - seguridad
+    - tri
+  - action: utter_seguridad_tri
+
+- story: seguridad vacuna varicela
+  steps:
+  - intent: seguridad de una vacuna
+    entities:
+    - seguridad
+  - action: utter_seguridad_vacuna
+  - intent: seguridad de la vacuna Varicela
+    entities:
+    - seguridad
+    - varicela
+  - action: utter_seguridad_varicela

@@ -1,0 +1,59 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hola
+    - hola, necesito ayuda !!
+    - ayudame por favor
+- intent: agradecimientos
+  examples: |
+    - muchas gracias !
+    - gracias
+- intent: informacion de una vacuna
+  examples: |
+    - ¿[Qué es](info) la vacuna ?
+    - ¿[Qué significa](info) vacuna ?
+    - [que sabes](info) de la vacuna ?
+    - [que me puedes decir](info) acerca la vacuna ?
+    - [informacion](info) de la vacuna ?
+- intent: contraindicaciones de una vacuna
+  examples: |
+    - ¿Existen [contraindicaciones](contraindicacion) para poner la vacuna ?
+    - ¿Hay [contraindicaciones](contraindicacion) para poner la vacuna ?
+    - ¿Hay casos en los que [no se debe colocar](contraindicacion) la vacuna ?
+    - ¿Cuándo [no colocar](contraindicacion) la vacuna ?
+    - ¿Cuándo [no se debe poner](contraindicacion) la vacuna ?
+- intent: precio de una vacuna
+  examples: |
+    - ¿[Es gratis](precio) la vacuna?
+    - ¿[Tiene costo](precio) la vacuna?
+    - ¿La vacuna del calendario de vacunación [es gratuita](precio)?
+    - [precio](precio) de la vacuna ?
+- intent: seguridad de una vacuna
+  examples: |
+    - ¿[Está aprobada](seguridad) la vacuna ?
+    - ¿[es segura](seguridad) la vacuna ?
+    - ¿Cómo sé si [es segura](seguridad) la vacuna?
+    - ¿Quién me asegura que la vacuna [es confiable](seguridad) y segura?
+    - ¿Cómo puedo confiar en la [seguridad](seguridad) de la vacuna ?
+    - ¿Cuál es el grado de [seguridad](seguridad) que tiene la vacuna ?
+    - ¿Es [confiable](seguridad) la vacuna ?
+- intent: como actua una vacuna
+  examples: |
+    - ¿Cómo [actúan](actua) las vacunas?
+    - ¿de que manera [actua](actua) las vacunas?
+    - ¿Cómo [trabajan](actua) las vacunas?
+    - ¿Cómo [funcionan](actua) las vacunas?
+    - ¿Cuál es [la mecánica](actua) de las vacunas?
+- synonym: tri
+  examples: |
+    - Tres Virica
+    - Trivirica
+    - rubeola
+    - paperas
+    - sarampion
+- synonym: vph
+  examples: |
+    - virus de papiloma humano
+    - papiloma
+    - VPH

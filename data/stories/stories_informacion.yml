@@ -1,0 +1,145 @@
+version: "2.0"
+stories:
+- story: informacion vacuna bcg
+  steps:
+  - intent: informacion de una vacuna
+    entities: 
+    - info
+  - action: utter_informacion_vacuna
+  - intent: informacion BCG
+    entities: 
+    - info
+    - bcg
+  - action: utter_informacion_bcg
+
+- story: informacion vacuna vph
+  steps:
+  - intent: informacion de una vacuna
+    entities:
+    - info
+  - action: utter_informacion_vacuna
+  - intent: informacion VPH
+    entities:
+    - info
+    - vph
+  - action: utter_informacion_vph
+
+- story: informacion vacuna dtpa
+  steps:
+  - intent: informacion de una vacuna
+    entities:
+    - info
+  - action: utter_informacion_vacuna
+  - intent: informacion dTpa
+    entities:
+    - info
+    - dtpa
+  - action: utter_informacion_dtpa
+
+- story: informacion vacuna hb
+  steps:
+  - intent: informacion de una vacuna
+    entities:
+    - info
+  - action: utter_informacion_vacuna
+  - intent: informacion Hepatitis B
+    entities:
+    - info
+    - hb
+  - action: utter_informacion_hb
+
+- story: informacion vacuna ha
+  steps:
+  - intent: informacion de una vacuna
+    entities:
+    - info
+  - action: utter_informacion_vacuna
+  - intent: informacion Hepatitis A
+    entities:
+    - info
+    - ha
+  - action: utter_informacion_ha
+
+- story: informacion vacuna hexa
+  steps:
+  - intent: informacion de una vacuna
+    entities:
+    - info
+  - action: utter_informacion_vacuna
+  - intent: informacion Hexavalente
+    entities:
+    - info
+    - hexa
+  - action: utter_informacion_hexa
+
+- story: informacion vacuna fiebre
+  steps:
+  - intent: informacion de una vacuna
+    entities:
+    - info
+  - action: utter_informacion_vacuna
+  - intent: informacion Fiebre Amarilla
+    entities:
+    - info
+    - fiebre
+  - action: utter_informacion_fiebre
+
+- story: informacion vacuna neumoC
+  steps:
+  - intent: informacion de una vacuna
+    entities:
+    - info
+  - action: utter_informacion_vacuna
+  - intent: informacion Neumococica C
+    entities:
+    - info
+    - neumoC
+  - action: utter_informacion_neumoC
+
+- story: informacion vacuna neumoP
+  steps:
+  - intent: informacion de una vacuna
+    entities:
+    - info
+  - action: utter_informacion_vacuna
+  - intent: informacion Neumococica P
+    entities:
+    - info
+    - neumoP
+  - action: utter_informacion_neumoP
+
+- story: informacion vacuna meninC
+  steps:
+  - intent: informacion de una vacuna
+    entities:
+    - info
+  - action: utter_informacion_vacuna
+  - intent: informacion Meningococica C
+    entities:
+    - info
+    - meninC
+  - action: utter_informacion_meninC
+
+- story: informacion vacuna tri
+  steps:
+  - intent: informacion de una vacuna
+    entities:
+    - info
+  - action: utter_informacion_vacuna
+  - intent: informacion Tres Virica
+    entities:
+    - info
+    - tri
+  - action: utter_informacion_tri
+
+- story: informacion vacuna varicela
+  steps:
+  - intent: informacion de una vacuna
+    entities:
+    - info
+  - action: utter_informacion_vacuna
+  - intent: informacion Varicela
+    entities:
+    - info
+    - varicela
+  - action: utter_informacion_varicela

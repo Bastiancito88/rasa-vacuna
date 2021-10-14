@@ -1,0 +1,157 @@
+
+
+# contraindicaiones
+version: "2.0"
+stories:
+- story: contraindicacion vacuna bcg
+  steps:
+  - intent: contraindicaciones de una vacuna
+    entities:
+    - contraindicacion
+  - action: utter_contraindicacion_vacuna
+  - intent: contraindicaciones de la vacuna BCG
+    entities:
+    - contraindicacion
+    - bcg
+  - action: utter_contraindicaciones_bcg
+
+- story: contraindicacion vacuna vph
+  steps:
+  - intent: contraindicaciones de una vacuna
+    entities:
+    - contraindicacion
+  - action: utter_contraindicacion_vacuna
+  - intent: contraindicaciones de la vacuna VPH
+    entities:
+    - contraindicacion
+    - vph
+  - action: utter_contraindicaciones_vph
+
+
+- story: contraindicacion vacuna dtpa
+  steps:
+  - intent: contraindicaciones de una vacuna
+    entities: 
+    - contraindicacion
+  - action: utter_contraindicacion_vacuna
+  - intent: contraindicaciones de la vacuna dTpa
+    entities:
+    - contraindicacion
+    - dtpa
+  - action: utter_contraindicaciones_dtpa
+
+
+- story: contraindicacion vacuna hb
+  steps:
+  - intent: contraindicaciones de una vacuna
+    entities: 
+    - contraindicacion
+  - action: utter_contraindicacion_vacuna
+  - intent: contraindicaciones de la vacuna Hepatitis B
+    entities:
+    - contraindicacion
+    - hb
+  - action: utter_contraindicaciones_hb
+
+- story: contraindicacion vacuna ha
+  steps:
+  - intent: contraindicaciones de una vacuna
+    entities: 
+    - contraindicacion
+  - action: utter_contraindicacion_vacuna
+  - intent: contraindicaciones de la vacuna Hepatitis A
+    entities:
+    - contraindicacion
+    - ha
+  - action: utter_contraindicaciones_ha
+
+
+- story: contraindicacion vacuna hexa
+  steps:
+  - intent: contraindicaciones de una vacuna
+    entities: 
+    - contraindicacion
+  - action: utter_contraindicacion_vacuna
+  - intent: contraindicaciones de la vacuna Hexavalente
+    entities:
+    - contraindicacion
+    - hexa
+  - action: utter_contraindicaciones_hexa
+
+
+- story: contraindicacion vacuna fiebre
+  steps:
+  - intent: contraindicaciones de una vacuna
+    entities: 
+    - contraindicacion
+  - action: utter_contraindicacion_vacuna
+  - intent: contraindicaciones de la vacuna Fiebre Amarilla
+    entities:
+    - contraindicacion
+    - fiebre
+  - action: utter_contraindicaciones_fiebre
+
+
+- story: contraindicacion vacuna neumoC
+  steps:
+  - intent: contraindicaciones de una vacuna
+    entities: 
+    - contraindicacion
+  - action: utter_contraindicacion_vacuna
+  - intent: contraindicaciones de la vacuna Neumococica C
+    entities:
+    - contraindicacion
+    - neumoC
+  - action: utter_contraindicaciones_neumoC
+
+
+- story: contraindicacion vacuna neumoP
+  steps:
+  - intent: contraindicaciones de una vacuna
+    entities: 
+    - contraindicacion
+  - action: utter_contraindicacion_vacuna
+  - intent: contraindicaciones de la vacuna Neumococica P
+    entities:
+    - contraindicacion
+    - neumoP
+  - action: utter_contraindicaciones_neumoP
+
+
+- story: contraindicacion vacuna meninC
+  steps:
+  - intent: contraindicaciones de una vacuna
+    entities: 
+    - contraindicacion
+  - action: utter_contraindicacion_vacuna
+  - intent: contraindicaciones de la vacuna Meningococica C
+    entities:
+    - contraindicacion
+    - meninC
+  - action: utter_contraindicaciones_meninC
+
+
+- story: contraindicacion vacuna tri
+  steps:
+  - intent: contraindicaciones de una vacuna
+    entities: 
+    - contraindicacion
+  - action: utter_contraindicacion_vacuna
+  - intent: contraindicaciones de la vacuna Tres Virica
+    entities:
+    - contraindicacion
+    - tri
+  - action: utter_contraindicaciones_tri
+
+- story: contraindicacion vacuna varicela
+  steps:
+  - intent: contraindicaciones de una vacuna
+    entities: 
+    - contraindicacion
+  - action: utter_contraindicacion_vacuna
+  - intent: contraindicaciones de la vacuna Varicela
+    entities:
+    - contraindicacion
+    - varicela
+  - action: utter_contraindicaciones_varicela
+

@@ -1,0 +1,154 @@
+
+
+# precio
+version: "2.0"
+
+stories:
+- story: precio vacuna bcg
+  steps:
+  - intent: precio de una vacuna
+    entities:
+    - precio
+  - action: utter_precio_vacuna
+  - intent: precio de la vacuna BCG
+    entities:
+    - precio
+    - bcg 
+  - action: utter_precio_bcg
+
+
+- story: precio vacuna vph
+  steps:
+  - intent: precio de una vacuna
+    entities:
+    - precio
+  - action: utter_precio_vacuna
+  - intent: precio de la vacuna VPH
+    entities:
+    - precio
+    - vph
+  - action: utter_precio_vph
+
+
+- story: precio vacuna dtpa
+  steps:
+  - intent: precio de una vacuna
+    entities:
+    - precio
+  - action: utter_precio_vacuna
+  - intent: precio de la vacuna dTpa
+    entities:
+    - precio
+    - dtpa
+  - action: utter_precio_dtpa
+
+
+- story: precio vacuna hb
+  steps:
+  - intent: precio de una vacuna
+    entities:
+    - precio
+  - action: utter_precio_vacuna
+  - intent: precio de la vacuna Hepatitis B
+    entities:
+    - precio
+    - hb
+  - action: utter_precio_hb
+
+- story: precio vacuna ha
+  steps:
+  - intent: precio de una vacuna
+    entities:
+    - precio
+  - action: utter_precio_vacuna
+  - intent: precio de la vacuna Hepatitis A
+    entities:
+    - precio
+    - ha
+  - action: utter_precio_ha
+
+- story: precio vacuna hexa
+  steps:
+  - intent: precio de una vacuna
+    entities:
+    - precio
+  - action: utter_precio_vacuna
+  - intent: precio de la vacuna Hexavalente
+    entities:
+    - precio
+    - hexa
+  - action: utter_precio_hexa
+
+
+- story: precio vacuna fiebre
+  steps:
+  - intent: precio de una vacuna
+    entities:
+    - precio
+  - action: utter_precio_vacuna
+  - intent: precio de la vacuna Fiebre Amarilla
+    entities:
+    - precio
+    - fiebre
+  - action: utter_precio_fiebre
+
+
+- story: precio vacuna neumoC
+  steps:
+  - intent: precio de una vacuna
+    entities:
+    - precio
+  - action: utter_precio_vacuna
+  - intent: precio de la vacuna Neumococica C
+    entities:
+    - precio
+    - neumoC
+  - action: utter_precio_neumoC
+
+- story: precio vacuna neumoP
+  steps:
+  - intent: precio de una vacuna
+    entities:
+    - precio
+  - action: utter_precio_vacuna
+  - intent: precio de la vacuna Neumococica P
+    entities:
+    - precio
+    - neumoP
+  - action: utter_precio_neumoP
+
+- story: precio vacuna meninC
+  steps:
+  - intent: precio de una vacuna
+    entities:
+    - precio
+  - action: utter_precio_vacuna
+  - intent: precio de la vacuna Meningococica C
+    entities:
+    - precio
+    - meninC
+  - action: utter_precio_meninC
+
+- story: precio vacuna tri
+  steps:
+  - intent: precio de una vacuna
+    entities:
+    - precio
+  - action: utter_precio_vacuna
+  - intent: precio de la vacuna Tres Virica
+    entities:
+    - precio
+    - tri
+  - action: utter_precio_tri
+
+- story: precio vacuna varicela
+  steps:
+  - intent: precio de una vacuna
+    entities:
+    - precio
+  - action: utter_precio_vacuna
+  - intent: precio de la vacuna Varicela
+    entities:
+    - precio
+    - varicela
+  - action: utter_precio_varicela

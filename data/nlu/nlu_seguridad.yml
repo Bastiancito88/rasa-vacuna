@@ -1,0 +1,65 @@
+
+version: "2.0"
+nlu:
+- intent: seguridad de la vacuna BCG
+  examples: |
+    - ¿[Está aprobada](seguridad) la vacuna [bcg](bcg) ? 
+    - ¿[es segura](seguridad) la vacuna [bcg](bcg)]? 
+
+- intent: seguridad de la vacuna VPH
+  examples: |
+    - ¿[Está aprobada](seguridad) la vacuna [vph](vph) ? 
+    - ¿[es segura](seguridad) la vacuna [vph](vph)]? 
+    - ¿[Está aprobada](seguridad) la vacuna [papiloma](vph) ? 
+
+
+- intent: seguridad de la vacuna dTpa
+  examples: |
+    - ¿[Está aprobada](seguridad) la vacuna [dtpa](dtpa) ? 
+    - ¿[es segura](seguridad) la vacuna [dtpa](dtpa)]? 
+
+- intent: seguridad de la vacuna Hepatitis A
+  examples: |
+    - ¿[Está aprobada](seguridad) la vacuna [Hepatitis A](ha) ? 
+    - ¿[es segura](seguridad) la vacuna [Hepatitis A](ha)]? 
+
+- intent: seguridad de la vacuna Hepatitis B
+  examples: |
+    - ¿[Está aprobada](seguridad) la vacuna [Hepatitis B](hb) ? 
+    - ¿[es segura](seguridad) la vacuna [Hepatitis B](hb)]? 
+
+- intent: seguridad de la vacuna Hexavalente
+  examples: |
+    - ¿[Está aprobada](seguridad) la vacuna [Hexavalente](hexa) ? 
+    - ¿[es segura](seguridad) la vacuna [Hexavalente](hexa)]? 
+
+- intent: seguridad de la vacuna Fiebre Amarilla
+  examples: |
+    -- ¿[Está aprobada](seguridad) la vacuna [Fiebre Amarilla](fiebre) ? 
+    - ¿[es segura](seguridad) la vacuna [Fiebre Amarilla](fiebre)]? 
+
+- intent: seguridad de la vacuna Tres Virica
+  examples: |
+    - ¿[Está aprobada](seguridad) la vacuna [Tres Virica](tri) ? 
+    - ¿[es segura](seguridad) la vacuna [Tres Virica](tri)]? 
+    
+
+- intent: seguridad de la vacuna Varicela
+  examples: |
+    - ¿[Está aprobada](seguridad) la vacuna [Varicela](varicela) ? 
+    - ¿[es segura](seguridad) la vacuna [Varicela](varicela)]? 
+
+- intent: seguridad de la vacuna Neumococica C
+  examples: |
+    - ¿[Está aprobada](seguridad) la vacuna [Neumocócica conjugada](neumoC) ? 
+    - ¿[es segura](seguridad) la vacuna [Neumocócica conjugada](neumoC)]? 
+
+- intent: seguridad de la vacuna Neumococica P
+  examples: |
+    - ¿[Está aprobada](seguridad) la vacuna [neumocócica polisacárida](neumoP) ? 
+    - ¿[es segura](seguridad) la vacuna [neumocócica polisacárida](neumoP)]? 
+
+- intent: seguridad de la vacuna Meningococica C
+  examples: |
+    - ¿[Está aprobada](seguridad) la vacuna [meningocócica conjugada](meninC) ? 
+    - ¿[es segura](seguridad) la vacuna [meningocócica conjugada](meninC)]? 

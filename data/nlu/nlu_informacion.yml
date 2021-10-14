@@ -1,0 +1,98 @@
+
+version: "2.0"
+nlu:
+- intent: informacion BCG
+  examples: |
+    - ¿[Qué es](info) la vacuna [bcg](bcg)?
+    - ¿[Qué significa](info) vacuna [bcg](bcg)?
+    - [que sabes](info) de la vacuna [bcg](bcg) ?
+    - [que me puedes decir](info) acerca la vacuna [bcg](bcg)?
+    - [informacion](info) de la vacuna [bcg](bcg)?
+
+- intent: informacion VPH
+  examples: |
+    - ¿[Qué es](info) la vacuna [vph](vph)?
+    - ¿[Qué significa](info) vacuna [vph](vph)?
+    - [que sabes](info) de la vacuna [vph](vph) ?
+    - [que me puedes decir](info) acerca la vacuna [vph](vph)?
+    - [informacion](info) de la vacuna [vph](vph)?
+    - ¿[Qué es](info) la vacuna [papiloma](vph)?
+- intent: informacion dTpa
+  examples: |
+    - ¿[Qué es](info) la vacuna [dtpa](dtpa)?
+    - ¿[Qué significa](info) vacuna [dtpa](dtpa)?
+    - [que sabes](info) de la vacuna [dtpa](dtpa) ?
+    - [que me puedes decir](info) acerca la vacuna [dtpa](dtpa)?
+    - [informacion](info) de la vacuna [dtpa](dtpa)?
+
+- intent: informacion Hepatitis A
+  examples: |
+    - ¿[Qué es](info) la vacuna [Hepatitis A](ha)?
+    - ¿[Qué significa](info) vacuna [Hepatitis A](ha)?
+    - [que sabes](info) de la vacuna [Hepatitis A](ha)?
+    - [que me puedes decir](info) acerca la vacuna [Hepatitis A](ha)?
+    - [informacion](info) de la vacuna [Hepatitis A](ha)?
+
+- intent: informacion Hepatitis B
+  examples: |
+    - ¿[Qué es](info) la vacuna [Hepatitis B](hb)?
+    - ¿[Qué significa](info) vacuna [Hepatitis B](hb)?
+    - [que sabes](info) de la vacuna [Hepatitis B](hb)?
+    - [que me puedes decir](info) acerca la vacuna [Hepatitis B](hb)?
+    - [informacion](info) de la vacuna [Hepatitis B](hb)?
+
+- intent: informacion Hexavalente
+  examples: |
+    - ¿[Qué es](info) la vacuna [Hexavalente](hexa)?
+    - ¿[Qué significa](info) vacuna [Hexavalente](hexa)?
+    - [que sabes](info) de la vacuna [Hexavalente](hexa)?
+    - [que me puedes decir](info) acerca la vacuna [Hexavalente](hexa)?
+    - [informacion](info) de la vacuna [Hexavalente](hexa)?
+
+- intent: informacion Fiebre Amarilla
+  examples: |
+    - ¿[Qué es](info) la vacuna [Fiebre Amarilla](fiebre)?
+    - ¿[Qué significa](info) vacuna [Fiebre Amarilla](fiebre)?
+    - [que sabes](info) de la vacuna [Fiebre Amarilla](fiebre)?
+    - [que me puedes decir](info) acerca la vacuna [Fiebre Amarilla](fiebre)?
+    - [informacion](info) de la vacuna [Fiebre Amarilla](fiebre)?
+
+- intent: informacion Tres Virica
+  examples: |
+    - ¿[Qué es](info) la vacuna [Tres Virica](tri)?
+    - ¿[Qué significa](info) vacuna [Tres Virica](tri)?
+    - [que sabes](info) de la vacuna [Tres Virica](tri)?
+    - [que me puedes decir](info) acerca la vacuna [Tres Virica](tri)?
+    - [informacion](info) de la vacuna [Tres Virica](tri)?
+
+- intent: informacion Varicela
+  examples: |
+    - ¿[Qué es](info) la vacuna [Varicela](varicela)?
+    - ¿[Qué significa](info) vacuna [Varicela](varicela)?
+    - [que sabes](info) de la vacuna [Varicela](varicela)?
+    - [que me puedes decir](info) acerca la vacuna [Varicela](varicela)?
+    - [informacion](info) de la vacuna [Varicela](varicela)?
+
+- intent: informacion Neumococica C
+  examples: |
+    - ¿[Qué es](info) la vacuna [Neumocócica conjugada](neumoC)? 
+    - ¿[Qué significa](info) vacuna [Neumocócica conjugada](neumoC)? 
+    - [que sabes](info) de la vacuna [Neumocócica conjugada](neumoC)? 
+    - [que me puedes decir](info) acerca la vacuna [Neumocócica conjugada](neumoC)? 
+    - [informacion](info) de la vacuna [Neumocócica conjugada](neumoC)? 
+
+- intent: informacion Neumococica P
+  examples: |
+    - ¿[Qué es](info) la vacuna [neumocócica polisacárida](neumoP)? 
+    - ¿[Qué significa](info) vacuna [neumocócica polisacárida](neumoP)? 
+    - [que sabes](info) de la vacuna [neumocócica polisacárida](neumoP)? 
+    - [que me puedes decir](info) acerca la vacuna [neumocócica polisacárida](neumoP)? 
+    - [informacion](info) de la vacuna [neumocócica polisacárida](neumoP)? 
+
+- intent: informacion Meningococica C
+  examples: |
+    - ¿[Qué es](info) la vacuna [meningocócica conjugada](meninC)? 
+    - ¿[Qué significa](info) vacuna [meningocócica conjugada](meninC)?  
+    - [que sabes](info) de la vacuna [meningocócica conjugada](meninC)? 
+    - [que me puedes decir](info) acerca la vacuna [meningocócica conjugada](meninC)? 
+    - [informacion](info) de la vacuna [meningocócica conjugada](meninC)? 
